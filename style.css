@@ -184,3 +184,57 @@ button a {
     padding-bottom: 20px;
     margin-top: 5px;
 }
+
+#contact {
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.shadow {
+    height: 420px;
+    width: 500px;
+    display: inline-block;
+}
+
+.hoy {
+    width: 100%;
+    margin-left: 420px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.shadow form label {
+    color: #15032a;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(#FC8F4A, #FE4A2F);
+    cursor: pointer;
+}
