@@ -4,8 +4,10 @@ body {
 }
 
 header {
+    height: 50px;
+    width: auto;
     display: flex;
-    background-color: chocolate;
+    background-color: rgb(121, 88, 65);
     justify-content: flex-end;
 }
 
@@ -16,16 +18,16 @@ header p {
     margin-right: auto;
 }
 
-header button {
-    height: 50px;
-    width: 100px;
+header .top-btn {
+    padding: 16px 32px;
     margin: 5px 5px;
-    color: blueviolet;
+    color: rgb(247, 244, 250);
     background-color: white;
     font-size: 15px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .top-banner {
@@ -33,4 +35,38 @@ header button {
     background-image: url(images/shapes/top-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.intro-text {
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+.text-color {
+    color: rgb(252, 139, 71);
+}
+
+.intro-text h1 {
+    color: rgb(87, 87, 87);
+    font-size: 50px;
+}
+
+.intro-text p {
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+}
+
+button {
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(#FC8F4A, #FE4A2F);
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }
