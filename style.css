@@ -70,3 +70,36 @@ button a {
     font-size: 16px;
     font-weight: bold;
 }
+
+.about {
+    display: flex;
+    background-image: url(images/shapes/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img img {
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.about-text {
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.about-text h1 {
+    color: rgb(87, 87, 87);
+    font-size: 30px;
+
+}
+
+.about-text p {
+    color: rgb(22, 25, 30);
+    margin-bottom: 60px;
+    font-size: 15px;
+    text-align: justify;
+}
